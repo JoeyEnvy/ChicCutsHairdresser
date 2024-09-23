@@ -1,101 +1,235 @@
-<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Chic Cuts - Our Gallery</title> <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet"> <style> body { font-family: 'Poppins', sans-serif; line-height: 1.6; margin: 0; padding: 0; background-color: #f9f5f0; color: #333; } .container { width: 80%; max-width: 1200px; margin: 0 auto; padding: 0 20px; } header { background: linear-gradient(to right, #35424a, #2c3e50); color: #ffffff; padding: 20px 0; } header .container { display: flex; justify-content: space-between; align-items: center; } header h1 { font-family: 'Playfair Display', serif; margin: 0; font-size: 2.5em; } nav ul { list-style: none; padding: 0; display: flex; } nav ul li { margin-left: 20px; } nav a { color: #ffffff; text-decoration: none; font-weight: 300; transition: color 0.3s ease; } nav a:hover { color: #e8491d; } #gallery { padding: 60px 0; } .gallery-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; } .gallery-item { position: relative; overflow: hidden; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.3s ease; } .gallery-item:hover { transform: scale(1.05); } .gallery-item img { width: 100%; height: 250px; object-fit: cover; display: block; } .gallery-item .overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(232, 73, 29, 0.8); color: #ffffff; display: flex; flex-direction: column; justify-content: center; align-items: center; opacity: 0; transition: opacity 0.3s ease; } .gallery-item:hover .overlay { opacity: 1; } .gallery-item .overlay h3 { font-size: 1.5em; margin-bottom: 10px; } footer { background: #35424a; color: #ffffff; text-align: center; padding: 20px 0; margin-top: 40px; } </style> </head> <body> <header> <div class="container"> <h1>Chic Cuts</h1> <nav> <ul> <li><a href="index.html">Home</a></li> <li><a href="services.html">Services</a></li> <li><a href="gallery.html">Gallery</a></li> <li><a href="contact.html">Contact</a></li> </ul> </nav> </div> </header>
-text
-<section id="gallery">
-    <div class="container">
-        <h2>Our Gallery</h2>
-        <div class="gallery-container">
-            <div class="gallery-item">
-                <img src="C:\Users\User\Desktop\Portfolio Templates\1 - Chic Cuts Hairdresser\images\1.jpg" alt="Elegant Updo">
-                <div class="overlay">
-                    <h3>Elegant Updo</h3>
-                    <p>Perfect for special occasions</p>
-                </div>
-            </div>
-            <div class="gallery-item">
-                <img src="C:\Users\User\Desktop\Portfolio Templates\1 - Chic Cuts Hairdresser\images\2.jpg" alt="Vibrant Red">
-                <div class="overlay">
-                    <h3>Vibrant Red</h3>
-                    <p>Bold and beautiful color</p>
-                </div>
-            </div>
-            <div class="gallery-item">
-                <img src="C:\Users\User\Desktop\Portfolio Templates\1 - Chic Cuts Hairdresser\images\3.jpg" alt="Beachy Waves">
-                <div class="overlay">
-                    <h3>Beachy Waves</h3>
-                    <p>Effortless and natural look</p>
-                </div>
-            </div>
-            <div class="gallery-item">
-                <img src="C:\Users\User\Desktop\Portfolio Templates\1 - Chic Cuts Hairdresser\images\4.jpg" alt="Sleek Bob">
-                <div class="overlay">
-                    <h3>Sleek Bob</h3>
-                    <p>Classic and polished style</p>
-                </div>
-            </div>
-            <div class="gallery-item">
-                <img src="C:\Users\User\Desktop\Portfolio Templates\1 - Chic Cuts Hairdresser\images\5.jpg" alt="Balayage Highlights">
-                <div class="overlay">
-                    <h3>Balayage Highlights</h3>
-                    <p>Sun-kissed, natural-looking highlights</p>
-                </div>
-            </div>
-            <div class="gallery-item">
-                <img src="C:\Users\User\Desktop\Portfolio Templates\1 - Chic Cuts Hairdresser\images\6.jpg" alt="Textured Pixie">
-                <div class="overlay">
-                    <h3>Textured Pixie</h3>
-                    <p>Chic and low-maintenance</p>
-                </div>
-            </div>
-            <div class="gallery-item">
-                <img src="C:\Users\User\Desktop\Portfolio Templates\1 - Chic Cuts Hairdresser\images\11.jpg" alt="Ombre Delight">
-                <div class="overlay">
-                    <h3>Ombre Delight</h3>
-                    <p>Gradual color transition for a stunning look</p>
-                </div>
-            </div>
-            <div class="gallery-item">
-                <img src="C:\Users\User\Desktop\Portfolio Templates\1 - Chic Cuts Hairdresser\images\12.jpg" alt="Curly Cascade">
-                <div class="overlay">
-                    <h3>Curly Cascade</h3>
-                    <p>Embrace your natural curls with style</p>
-                </div>
-            </div>
-            <div class="gallery-item">
-                <img src="C:\Users\User\Desktop\Portfolio Templates\1 - Chic Cuts Hairdresser\images\13.jpg" alt="Platinum Perfection">
-                <div class="overlay">
-                    <h3>Platinum Perfection</h3>
-                    <p>Bold and bright blonde transformation</p>
-                </div>
-            </div>
-            <div class="gallery-item">
-                <img src="C:\Users\User\Desktop\Portfolio Templates\1 - Chic Cuts Hairdresser\images\14.jpg" alt="Layered Luxe">
-                <div class="overlay">
-                    <h3>Layered Luxe</h3>
-                    <p>Add depth and movement to your hair</p>
-                </div>
-            </div>
-            <div class="gallery-item">
-                <img src="C:\Users\User\Desktop\Portfolio Templates\1 - Chic Cuts Hairdresser\images\15.jpg" alt="Pastel Dream">
-                <div class="overlay">
-                    <h3>Pastel Dream</h3>
-                    <p>Soft, dreamy colors for a unique look</p>
-                </div>
-            </div>
-            <div class="gallery-item">
-                <img src="C:\Users\User\Desktop\Portfolio Templates\1 - Chic Cuts Hairdresser\images\16.jpg" alt="Sleek Straight">
-                <div class="overlay">
-                    <h3>Sleek Straight</h3>
-                    <p>Smooth and shiny for a polished appearance</p>
-                </div>
-            </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chic Cuts - Our Gallery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f5f0;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        header {
+            background: linear-gradient(to right, #35424a, #2c3e50);
+            color: #ffffff;
+            padding: 20px 0;
+        }
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            font-family: 'Playfair Display', serif;
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin-left: 20px;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 300;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #e8491d;
+        }
+        #gallery {
+            padding: 60px 0;
+        }
+        .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .gallery-item:hover {
+            transform: scale(1.05);
+        }
+        .gallery-item img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            display: block;
+        }
+        .gallery-item .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(232, 73, 29, 0.8);
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .gallery-item:hover .overlay {
+            opacity: 1;
+        }
+        .gallery-item .overlay h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        footer {
+            background: #35424a;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Chic Cuts</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-    </div>
-</section>
+    </header>
 
-<footer>
-    <div class="container">
-        <p>Chic Cuts Hair Salon, Elevating Your Style Since 2010 | Copyright &copy; 2024</p>
-    </div>
-</footer>
+    <section id="gallery">
+        <div class="container">
+            <h2>Our Gallery</h2>
+            <div class="gallery-container">
+                <div class="gallery-item">
+                    <img src="images/1.jpg" alt="Elegant Updo">
+                    <div class="overlay">
+                        <h3>Elegant Updo</h3>
+                        <p>Perfect for special occasions</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/2.jpg" alt="Vibrant Red">
+                    <div class="overlay">
+                        <h3>Vibrant Red</h3>
+                        <p>Bold and beautiful color</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/3.jpg" alt="Beachy Waves">
+                    <div class="overlay">
+                        <h3>Beachy Waves</h3>
+                        <p>Effortless and natural look</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/4.jpg" alt="Sleek Bob">
+                    <div class="overlay">
+                        <h3>Sleek Bob</h3>
+                        <p>Classic and polished style</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/5.jpg" alt="Balayage Highlights">
+                    <div class="overlay">
+                        <h3>Balayage Highlights</h3>
+                        <p>Sun-kissed, natural-looking highlights</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/6.jpg" alt="Textured Pixie">
+                    <div class="overlay">
+                        <h3>Textured Pixie</h3>
+                        <p>Chic and low-maintenance</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/11.jpg" alt="Ombre Delight">
+                    <div class="overlay">
+                        <h3>Ombre Delight</h3>
+                        <p>Gradual color transition for a stunning look</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/12.jpg" alt="Curly Cascade">
+                    <div class="overlay">
+                        <h3>Curly Cascade</h3>
+                        <p>Embrace your natural curls with style</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/13.jpg" alt="Platinum Perfection">
+                    <div class="overlay">
+                        <h3>Platinum Perfection</h3>
+                        <p>Bold and bright blonde transformation</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/14.jpg" alt="Layered Luxe">
+                    <div class="overlay">
+                        <h3>Layered Luxe</h3>
+                        <p>Add depth and movement to your hair</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/15.jpg" alt="Pastel Dream">
+                    <div class="overlay">
+                        <h3>Pastel Dream</h3>
+                        <p>Soft, dreamy colors for a unique look</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/16.jpg" alt="Sleek Straight">
+                    <div class="overlay">
+                        <h3>Sleek Straight</h3>
+                        <p>Smooth and shiny for a polished appearance</p>
+                    </div>
+                </div>
+           </div> 
+       </div> 
+    </section>
 
-</body> </html>
+    <footer>
+       <div class="container"> 
+           <p>Chic Cuts Hair Salon, Elevating Your Style Since 2010 | Copyright &copy; 2024</p> 
+       </div> 
+    </footer>
+
+    <!-- Add any necessary JavaScript functionality here -->
+    <!-- Placeholder for future scripts -->
+    <!-- Example:
+    const galleryItems = document.querySelectorAll('.gallery-item');
+    galleryItems.forEach(item => {
+      item.addEventListener('click', () => {
+          // Add functionality here
+      });
+    });
+    -->
+    
+</body> 
+</html>
