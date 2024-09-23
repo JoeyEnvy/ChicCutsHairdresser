@@ -117,143 +117,74 @@
             display: flex;
             align-items: center;
         }
-        .feature-box:hover {
-            transform: translateY(-5px);
-        }
-        .feature-box h3 {
-            color: #e8491d;
-            margin-bottom: 15px;
-        }
-        .feature-box .text-content {
-            flex: 2;
-            padding-right: 20px;
-        }
-        .feature-box .image-content {
-            flex: 1;
-        }
-        .feature-box img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        #about {
-            background: #35424a;
-            color: #ffffff;
-            padding: 60px 0;
-        }
-        #about .container {
-            display: flex;
-            align-items: flex-start;
-        }
-        #about .text-content {
-            flex: 2;
-            padding-right: 40px;
-        }
-        #about .image-content {
-            flex: 1;
-        }
-        #about h2 {
-            font-family: 'Playfair Display', serif;
-            font-size: 2.5em;
-            margin-bottom: 20px;
-        }
-        #about img {
-            max-width: 100%;
-            height: auto;
-            border: 5px solid #e8491d;
-            border-radius: 10px;
-        }
-        footer {
-            background: #2c3e50;
-            color: #ffffff;
-            text-align: center;
-            padding: 20px 0;
-            margin-top: 40px;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <div class="container">
-            <h1>Chic Cuts</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+       <!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Chic Cuts - Where Style Meets Sophistication</title> <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet"> <style> body { font-family: 'Poppins', sans-serif; line-height: 1.6; margin: 0; padding: 0; background-color: #f9f5f0; color: #333; } .container { width: 80%; max-width: 1200px; margin: 0 auto; padding: 0 20px; } header { background: linear-gradient(to right, #35424a, #2c3e50); color: #ffffff; padding: 20px 0; } header .container { display: flex; justify-content: space-between; align-items: center; } header .logo-title { display: flex; align-items: center; } header .logo { height: 60px; margin-right: 20px; } header h1 { font-family: 'Playfair Display', serif; margin: 0; font-size: 2.5em; } nav ul { list-style: none; padding: 0; display: flex; } nav ul li { margin-left: 20px; } nav a { color: #ffffff; text-decoration: none; font-weight: 300; transition: color 0.3s ease; } nav a:hover { color: #e8491d; } #showcase { background: url('images/backdrop.jpg') no-repeat center center/cover; height: 600px; display: flex; align-items: center; text-align: center; color: #ffffff; } #showcase .content { background: rgba(0, 0, 0, 0.7); padding: 40px; border-radius: 5px; display: flex; align-items: center; justify-content: space-between; } #showcase .text-content { flex: 1; text-align: left; padding-right: 20px; } #showcase .image-content { flex: 1; } #showcase .image-content img { max-width: 100%; height: auto; border-radius: 5px; } #showcase h2 { font-family: 'Playfair Display', serif; font-size: 3em; margin-bottom: 20px; } #showcase p { font-size: 1.2em; margin-bottom: 20px; } .btn { display: inline-block; background: #e8491d; color: #ffffff; padding: 10px 20px; border: none; border-radius: 5px; text-decoration: none; font-weight: 600; transition: background 0.3s ease; } .btn:hover { background: #d43f1a; } #features { padding: 60px 0; } .feature-box { background: #ffffff; padding: 30px; margin: 20px 0; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.3s ease; display: flex; align-items: center; } .feature-box:hover { transform: translateY(-5px); } .feature-box h3 { color: #e8491d; margin-bottom: 15px; } .feature-box .text-content { flex: 2; padding-right: 20px; } .feature-box .image-content { flex: 1; } .feature-box img { max-width: 100%; height: auto; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); } #about { background: #35424a; color: #ffffff; padding: 60px 0; } #about .container { display: flex; align-items: flex-start; } #about .text-content { flex: 2; padding-right: 40px; } #about .image-content { flex: 1; } #about h2 { font-family: 'Playfair Display', serif; font-size: 2.5em; margin-bottom: 20px; } #about img { max-width: 100%; height: auto; border: 5px solid #e8491d; border-radius: 10px; } footer { background: #2c3e50; color: #ffffff; text-align: center; padding: 20px 0; margin-top: 40px; } </style> </head> <body> <header> <div class="container"> <div class="logo-title"> <img src="images/logo.png" alt="Chic Cuts Logo" class="logo"> <h1>Chic Cuts</h1> </div> <nav> <ul> <li><a href="index.html">Home</a></li> <li><a href="services.html">Services</a></li> <li><a href="gallery.html">Gallery</a></li> <li><a href="contact.html">Contact</a></li> </ul> </nav> </div> </header>
 
-    <section id="showcase">
-        <div class="container">
-            <div class="content">
-                <div class="text-content">
-                    <h2>Welcome to Chic Cuts</h2>
-                    <p>Experience the art of hairstyling at its finest. Where every cut is a masterpiece.</p>
-                    <a href="services.html" class="btn">Explore Our Services</a>
-                </div>
-                <div class="image-content">
-                    <img src="images/5.jpg" alt="Chic Cuts Salon">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="features">
-        <div class="container">
-            <div class="feature-box">
-                <div class="text-content">
-                    <h3>Expert Stylists</h3>
-                    <p>Our team of experienced stylists are more than just hairdressers; they're artists dedicated to bringing out your unique beauty.</p>
-                </div>
-                <div class="image-content">
-                    <img src="images/1.jpg" alt="Expert Stylist">
-                </div>
-            </div>
-            <div class="feature-box">
-                <div class="text-content">
-                    <h3>Premium Products</h3>
-                    <p>At Chic Cuts, we believe that great hair starts with great products. That's why we use and recommend only the finest, salon-quality hair care lines.</p>
-                </div>
-                <div class="image-content">
-                    <img src="images/2.jpg" alt="Premium Products">
-                </div>
-            </div>
-            <div class="feature-box">
-                <div class="text-content">
-                    <h3>Flexible Hours</h3>
-                    <p>We understand that life can be hectic, which is why we offer flexible hours to accommodate your busy schedule.</p>
-                </div>
-                <div class="image-content">
-                    <img src="images/3.jpg" alt="Flexible Hours">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="about">
-        <div class="container">
+<section id="showcase">
+    <div class="container">
+        <div class="content">
             <div class="text-content">
-                <h2>About Chic Cuts</h2>
-                <p>Founded in 2010, Chic Cuts has been a beacon of style and sophistication in the heart of Fashion City for over a decade. Our salon was born from a simple yet powerful idea: everyone deserves to feel confident and beautiful.</p>
-                <p>At Chic Cuts, we don't just cut hair; we craft experiences. From the moment you step through our doors, you'll be enveloped in a world of luxury and relaxation.</p>
-                <p>We pride ourselves on our commitment to continuous education and innovation. Our stylists regularly attend workshops and hair shows to stay at the forefront of hair fashion, bringing the latest techniques and trends directly to you.</p>
-                <p>Experience the Chic Cuts difference today. Your hair deserves nothing but the best, and that's exactly what we deliver – style, expertise, and a touch of luxury, all tailored just for you.</p>
+                <h2>Welcome to Chic Cuts</h2>
+                <p>Experience the art of hairstyling at its finest. Where every cut is a masterpiece.</p>
+                <a href="services.html" class="btn">Explore Our Services</a>
             </div>
             <div class="image-content">
-                <img src="images/4.jpg" alt="Chic Cuts Salon Interior">
+                <img src="images/5.jpg" alt="Chic Cuts Salon">
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <footer>
-        <div class="container">
-            <p>Chic Cuts Hair Salon, Elevating Your Style Since 2010 | Copyright &copy; 2024</p>
+<section id="features">
+    <div class="container">
+        <div class="feature-box">
+            <div class="text-content">
+                <h3>Expert Stylists</h3>
+                <p>Our team of experienced stylists are more than just hairdressers; they're artists dedicated to bringing out your unique beauty.</p>
+            </div>
+            <div class="image-content">
+                <img src="images/1.jpg" alt="Expert Stylist">
+            </div>
         </div>
-    </footer>
-</body>
-</html>
+        <div class="feature-box">
+            <div class="text-content">
+                <h3>Premium Products</h3>
+                <p>At Chic Cuts, we believe that great hair starts with great products. That's why we use and recommend only the finest, salon-quality hair care lines.</p>
+            </div>
+            <div class="image-content">
+                <img src="images/2.jpg" alt="Premium Products">
+            </div>
+        </div>
+        <div class="feature-box">
+            <div class="text-content">
+                <h3>Flexible Hours</h3>
+                <p>We understand that life can be hectic, which is why we offer flexible hours to accommodate your busy schedule.</p>
+            </div>
+            <div class="image-content">
+                <img src="images/3.jpg" alt="Flexible Hours">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="about">
+    <div class="container">
+        <div class="text-content">
+            <h2>About Chic Cuts</h2>
+            <p>Founded in 2010, Chic Cuts has been a beacon of style and sophistication in the heart of Fashion City for over a decade. Our salon was born from a simple yet powerful idea: everyone deserves to feel confident and beautiful.</p>
+            <p>At Chic Cuts, we don't just cut hair; we craft experiences. From the moment you step through our doors, you'll be enveloped in a world of luxury and relaxation.</p>
+            <p>We pride ourselves on our commitment to continuous education and innovation. Our stylists regularly attend workshops and hair shows to stay at the forefront of hair fashion, bringing the latest techniques and trends directly to you.</p>
+            <p>Experience the Chic Cuts difference today. Your hair deserves nothing but the best, and that's exactly what we deliver – style, expertise, and a touch of luxury, all tailored just for you.</p>
+        </div>
+        <div class="image-content">
+            <img src="images/4.jpg" alt="Chic Cuts Salon Interior">
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>Chic Cuts Hair Salon, Elevating Your Style Since 2010 | Copyright &copy; 2024</p>
+    </div>
+</footer>
+
+</body> </html>
