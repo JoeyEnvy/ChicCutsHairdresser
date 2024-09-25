@@ -1,48 +1,210 @@
-<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Chic Cuts - Contact Us</title> <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> <style> body { font-family: 'Poppins', sans-serif; line-height: 1.6; margin: 0; padding: 0; background-color: #f9f5f0; color: #333; } .container { width: 90%; max-width: 1200px; margin: 0 auto; padding: 0 20px; } header { background: linear-gradient(to right, #35424a, #2c3e50); color: #ffffff; padding: 20px 0; } header .container { display: flex; justify-content: space-between; align-items: center; } header h1 { font-family: 'Playfair Display', serif; margin: 0; font-size: 2.5em; } .logo-container { display: flex; align-items: center; } .logo-container img { height: 80px; margin-right: 20px; } nav ul { list-style: none; padding: 0; display: flex; } nav ul li { margin-left: 20px; } nav a { color: #ffffff; text-decoration: none; font-weight: 300; transition: color 0.3s ease; } nav a:hover { color: #e8491d; } #contact { padding: 60px 0; } .contact-container { display: flex; gap: 40px; } .contact-form { flex: 1; background: #ffffff; padding: 30px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); } .contact-info { margin-top: 20px; } .contact-form h2, .contact-info h2 { font-family: 'Playfair Display', serif; color: #e8491d; margin-bottom: 20px; } .contact-form label { display: block; margin-bottom: 5px; } .contact-form input, .contact-form textarea { width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ddd; border-radius: 5px; } .contact-form button { background: #e8491d; color: #ffffff; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; transition: background 0.3s ease; } .contact-form button:hover { background: #d43f1a; } .contact-info p { margin-bottom: 15px; } .contact-info i { color: #e8491d; margin-right: 10px; } .image-container { flex: 1; display: flex; flex-direction: column; gap: 20px; } .image-container img { width: 100%; border-radius: 10px; border: 2px solid #ddd; box-shadow: 0 4px 8px rgba(0,0,0,0.1); object-fit: cover; } footer { background:#35424a; color:#ffffff; text-align:center; padding:20px 0; margin-top:40px; } @media (max-width: 768px) { .contact-container { flex-direction: column; } .image-container { order: -1; } } </style> </head> <body> <header> <div class="container"> <div class="logo-container"> <img src="images/logo.png" alt="Chic Cuts Logo"> <h1>Chic Cuts</h1> </div> <nav> <ul> <li><a href="index.html">Home</a></li> <li><a href="services.html">Services</a></li> <li><a href="gallery.html">Gallery</a></li> <li><a href="contact.html">Contact</a></li> </ul> </nav> </div> </header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Chic Cuts Hair Salon for appointments and inquiries. We're here to help you achieve your perfect look.">
+    <title>Chic Cuts - Contact Us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" media="print" onload="this.media='all'">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f5f0;
+            color: #333;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        header {
+            background: linear-gradient(to right, #35424a, #2c3e50);
+            color: #ffffff;
+            padding: 20px 0;
+        }
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            font-family: 'Playfair Display', serif;
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+        .logo-container img {
+            height: 80px;
+            margin-right: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin-left: 20px;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 300;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #e8491d;
+        }
+        #contact {
+            padding: 60px 0;
+        }
+        .contact-container {
+            display: flex;
+            gap: 40px;
+        }
+        .contact-form {
+            flex: 1;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .contact-info {
+            margin-top: 20px;
+        }
+        .contact-form h2, .contact-info h2 {
+            font-family: 'Playfair Display', serif;
+            color: #e8491d;
+            margin-bottom: 20px;
+        }
+        .contact-form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background: #e8491d;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        .contact-form button:hover {
+            background: #d43f1a;
+        }
+        .contact-info p {
+            margin-bottom: 15px;
+        }
+        .contact-info i {
+            color: #e8491d;
+            margin-right: 10px;
+        }
+        .image-container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .image-container img {
+            width: 100%;
+            border-radius: 10px;
+            border: 2px solid #ddd;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            object-fit: cover;
+        }
+        footer {
+            background: #35424a;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+        @media (max-width: 768px) {
+            .contact-container {
+                flex-direction: column;
+            }
+            .image-container {
+                order: -1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo-container">
+                <img src="images/logo4.png" alt="Chic Cuts Logo">
+                <h1>Chic Cuts</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-<section id="contact">
-    <div class="container">
-        <div class="contact-container">
-            <div class="contact-form">
-                <h2>Get in Touch</h2>
-                <form>
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" required>
+    <section id="contact">
+        <div class="container">
+            <div class="contact-container">
+                <div class="contact-form">
+                    <h2>Get in Touch</h2>
+                    <form action="/submit-form" method="POST">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
 
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
 
-                    <label for="phone">Phone</label>
-                    <input type="tel" id="phone" name="phone">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone">
 
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
 
-                    <button type="submit">Send Message</button>
-                </form>
-                <img src="images/19.jpg" alt="Additional salon image" style="width: 100%; margin-top: 20px; border-radius: 10px;">
+                        <button type="submit">Send Message</button>
+                    </form>
+                    <img src="images/19.jpg" alt="Additional salon image" style="width: 100%; margin-top: 20px; border-radius: 10px;">
 
-                <div class="contact-info">
-                    <h2>Contact Information</h2>
-                    <p><i class="fas fa-map-marker-alt"></i>123 Style Street, Fashion City, FC 12345</p>
-                    <p><i class="fas fa-phone"></i>(555) 123-4567</p>
-                    <p><i class="fas fa-envelope"></i>info@chiccuts.com</p>
-                    <p><i class="fas fa-clock"></i>Mon-Sat: 9am-8pm, Sun: 10am-6pm</p>
+                    <div class="contact-info">
+                        <h2>Contact Information</h2>
+                        <p><i class="fas fa-map-marker-alt"></i>123 Style Street, Fashion City, FC 12345</p>
+                        <p><i class="fas fa-phone"></i>(555) 123-4567</p>
+                        <p><i class="fas fa-envelope"></i>info@chiccuts.com</p>
+                        <p><i class="fas fa-clock"></i>Mon-Sat: 9am-8pm, Sun: 10am-6pm</p>
+                    </div>
+                </div>
+
+                <div class="image-container">
+                    <img src="images/17.jpg" alt="Hairstyle showcase 1">
+                    <img src="images/18.jpg" alt="Hairstyle showcase 2">
                 </div>
             </div>
-
-            <div class="image-container">
-                <img src="images/17.jpg" alt="Hairstyle showcase 1">
-                <img src="images/18.jpg" alt="Hairstyle showcase 2">
-            </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<footer>
-    <div class="container">
-        <p>Chic Cuts Hair Salon, Elevating Your Style Since 2010 | Copyright &copy; 2024</p>
-    </div>
-</footer>
-
-</body> </html>
+    <footer>
+        <div class="container">
+            <p>Chic Cuts Hair Salon, Elevating Your Style Since 2010 | Copyright &copy; 2024</p>
+        </div>
+    </footer>
+</body>
+</html>
